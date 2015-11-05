@@ -52,6 +52,12 @@ a h1 {
   margin: 2vh auto;
 }
 
+#jump.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
 #jump a {
   display: inline-block;
   margin: auto 5px;
