@@ -2,10 +2,10 @@ html, body {
   background-color: #6A4427;
   color: #25120C;
   font-family: 'Oswald', sans-serif;
+  font-size: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 100%;
 }
 
 *, *::before, *::after {
@@ -15,8 +15,8 @@ html, body {
 }
 
 #wrapper {
+  display: inline-block;
   margin: auto;
-  width: 800px;
 }
 
 a, a:visited {
@@ -38,10 +38,10 @@ h1 {
   border: 5px solid #25120C;
   color: #ffffff;
   display: inline-block;
+  font-size: 1.7em;
   margin-bottom: 2vh;
   margin: auto;
   width: 50%;
-  font-size: 1.7em;
 }
 
 a h1 {
@@ -49,17 +49,17 @@ a h1 {
 }
 
 #jump {
-  padding: 2vh;
-  margin: auto;
   background-color: #6A4427;
+  margin: auto;
+  padding: 2vh;
 }
 
 #jump.sticky {
-  position: fixed;
-  top: 0;
-  z-index: 10000;
-  right: 0;
   left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
 }
 
 #jump a {
@@ -68,19 +68,6 @@ a h1 {
 }
 
 h2 {
-  margin: 0 auto;
   font-size: 1.2em;
+  margin: 0 auto;
 }
-
-@media (max-width: 800px) {
-  #wrapper {
-    width: 100vw;
-  }
-}
-
-/*
-v3: 6A4427
-martin: 321E37
-hege: 592912
-csongi: 25120C
-*/
