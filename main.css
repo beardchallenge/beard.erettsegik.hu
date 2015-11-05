@@ -49,13 +49,17 @@ a h1 {
 }
 
 #jump {
-  margin: 2vh auto;
+  padding: 2vh;
+  margin: auto;
+  background-color: #6A4427;
 }
 
 #jump.sticky {
   position: fixed;
   top: 0;
   z-index: 10000;
+  right: 0;
+  left: 0;
 }
 
 #jump a {
