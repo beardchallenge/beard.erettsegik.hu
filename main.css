@@ -39,8 +39,7 @@ h1 {
   color: #ffffff;
   display: inline-block;
   font-size: 1.7em;
-  margin-bottom: 2vh;
-  margin: auto;
+  margin: 8vh auto 2vh auto;
   width: 50%;
 }
 
@@ -50,16 +49,15 @@ a h1 {
 
 #jump {
   background-color: #6A4427;
+  height: 8vh;
   margin: auto;
-  padding: 2vh;
-}
-
-#jump.sticky {
   left: 0;
   position: fixed;
   right: 0;
   top: 0;
   z-index: 100;
+  line-height: 8vh;
+  vertical-align: middle;
 }
 
 #jump a {
@@ -69,6 +67,6 @@ a h1 {
 
 h2 {
   font-size: 1.2em;
-  margin: -3em auto 0 auto;
-  padding-top: 3em;
+  margin: -8vh auto 0 auto;
+  padding-top: 8vh;
 }
