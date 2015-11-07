@@ -1,4 +1,5 @@
 $(document).on("swipe", function() {
+  alert(window.location.href.indexOf("newcomers"));
   var s = window.location.href;
   if (s.indexOf("newcomers") > -1) {
     window.location.assign('/');
